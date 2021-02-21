@@ -1,0 +1,80 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #023047;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;  
+  
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  display: inline-block;
+  width: 102%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+h1 {
+  font-style: italic;
+  color: #ffafcc;
+  font-size: xx-large;
+  justify-content: center;
+  text-align: center;
+}
+
+h4 {
+  font-style: italic;
+  color: #FF006E;
+  font-size: large;
+  justify-content: center;
+  text-align: center;
+}
+button {
+  border-radius: 1000px;
+  border: none;
+  background: #FF006E;
+  padding: 0.25em;
+  margin: 0.25em;
+  
+}
+
+button > a {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+    background-color: #ffafcc;
+}
+
+.button-panel{
+  display: flex;
+  flex-direction: column;
+  postion:center;
+}
+
+p {
+  color: white;
+}
+
+h2 {
+  font-style: italic;
+  color: white;
+  font-size: small;
+  justify-content: center;
+  text-align: center;
+}
+
+h3 {
+  font-style: italic;
+  color: white;
+  font-size: medium;
+  justify-content: center;
+  text-align: center;
+  
+}

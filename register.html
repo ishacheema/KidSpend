@@ -1,0 +1,79 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Choose an Option</title>
+    <meta name="description" content="A cool thing made with Glitch" />
+    <link id="favicon" rel="icon" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        🙋‍♂️Register🙋‍♀️
+      </h1>
+      <h3>Please Enter Information Below</h3>
+
+      <h2>Name</h2>
+      <input name="name" type="text" maxlength="100" placeholder="Name" />
+
+      <h2>Username</h2>
+      <input
+        name="username"
+        type="text"
+        maxlength="100"
+        placeholder="Username"
+      />
+
+      <h2>Email</h2>
+      <input name="email" type="text" maxlength="100" placeholder="Email" />
+
+      <h2>Phone number</h2>
+      <input
+        name="phonenumber"
+        type="text"
+        maxlength="100"
+        placeholder="Phone number"
+      />
+
+      <h2>Password</h2>
+      <input
+        name="password"
+        type="text"
+        maxlength="100"
+        placeholder="Password"
+      />
+    </header>
+    <body>
+      <form class="button-panel">
+        <button type="login" id="login">
+          <a href="mainMenu.html"> Register</a>
+        </button>
+
+        <button type="Register" id="Register">
+          <a href="index.html">Back</a>
+        </button>
+      </form>
+    </body>
+
+    <section class="dreams">
+      <ul id="dreams"></ul>
+    </section>
+  </body>
+</html>

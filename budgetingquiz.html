@@ -1,0 +1,88 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Choose an Option</title>
+    <meta name="description" content="A cool thing made with Glitch" />
+    <link id="favicon" rel="icon" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Budgeting Quiz
+      </h1>
+
+      <h2>
+        If I overspend, I can expect my parents to give me money.
+        <select id="q1" name="q1">
+          <option value="true">true</option>
+          <option value="false">false</option>
+        </select>
+      </h2>
+
+      <h2>
+        I need to be sure my allownace lasts for an entire week
+        <select id="q2" name="q2">
+          <option value="true">true</option>
+          <option value="false">false</option>
+        </select>
+      </h2>
+
+      <h2>
+        Which of the following is a reponsible spending practice?
+        <select id="q3" name="q3">
+          <option value="true">spending more money than I have planned</option>
+          <option value="false"
+            >Buying an item that looks good to me, even if i do not need
+          </option>
+        </select>
+      </h2>
+
+      <h2>
+        Budgeting is a good way to save money.
+        <select id="q4" name="q4">
+          <option value="true">true</option>
+          <option value="false">false</option>
+        </select>
+      </h2>
+      <h2>
+        The best way to grow my money is to:
+
+        <select id="q5" name="q5">
+          <option value="true">make a variety of investments</option>
+          <option value="false">save my money in a closet</option>
+          <option value="false">loan it to a friend</option>
+          <option value="false">buy new clothes</option>
+        </select>
+      </h2>
+    </header>
+    <body>
+      <form class="button-panel">
+        <button type="back" id="back">
+          <a href="index.html">Back</a>
+        </button>
+      </form>
+    </body>
+
+    <section class="dreams">
+      <ul id="dreams"></ul>
+    </section>
+  </body>
+</html>

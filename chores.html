@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Chores</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>My Chores</h1>
+
+    <!-- Calendly link widget begin -->
+    <form>
+      <link
+        href="https://assets.calendly.com/assets/external/widget.css"
+        rel="stylesheet"
+      />
+      <script
+        src="https://assets.calendly.com/assets/external/widget.js"
+        type="text/javascript"
+      ></script>
+
+      <button
+        href=""
+        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/cheema-isha/chores'});return false;"
+      >
+        Scheduled Chores
+      </button>
+
+      <!-- Calendly link widget end -->
+    </form>
+    <form class="button-panel">
+      <button type="back" id="back">
+        <a href="mainMenu.html">Back</a>
+      </button>
+    </form>
+  </body>
+</html>
