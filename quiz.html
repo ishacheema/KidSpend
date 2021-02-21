@@ -1,0 +1,69 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Choose an Option</title>
+    <meta name="description" content="A cool thing made with Glitch" />
+    <link id="favicon" rel="icon" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Quizzes
+      </h1>
+      
+      <h2>
+        Select a topic you would like to be quizzes on:
+      </h2>
+    </header>
+
+    <main>
+      <form class="button-panel">
+
+        <button type="My Chores" id="My Chores">
+          <a href="">Spending Plans</a>
+        </button>
+        <button type="Financial Knowledge" id="Financial Knowledge">
+          <a href="budgetingquiz.html">Budgeting</a>
+        </button>
+        <button type="Quiz Yourself" id="Quiz Yourself">
+          <a href="">Earning Money</a>
+        </button>
+        <button type="Learn about Bills" id="Learn about Bills">
+          <a href="">Saving and Investing</a>
+        </button>
+        <button type="Wallet" id="Wallet">
+          <a href="">Allowances</a>
+        </button>
+      </form>
+
+      <section class="dreams">
+        <ul id="dreams"></ul>
+      </section>
+    </main>
+  </body>
+      
+    <body>
+    
+  <button type="quiz" id="quiz">
+  <a href="mainMenu.html"> Back</a>
+  </button>
+  </body>
+</html>

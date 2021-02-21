@@ -1,0 +1,60 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Choose an Option</title>
+    <meta name="description" content="A cool thing made with Glitch" />
+    <link id="favicon" rel="icon" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        💸 kidspend💸
+      </h1>
+    </header>
+
+    <main>
+      <h4>
+        learn now, spend later.
+      </h4>
+
+      <img
+        src="https://cdn.glitch.com/e9d646b1-f128-48d4-af14-a0a5da452107%2Fpiglogo.jpg?v=1613861783306"
+        class="img"
+        height="200"
+        width="210"
+      />
+
+      <form class="button-panel">
+        <button type="login" id="login">
+          <a href="login.html"> Login</a>
+        </button>
+
+        <button type="Register" id="Register">
+          <a href="register.html">Register</a>
+        </button>
+      </form>
+
+      <section class="dreams">
+        <ul id="dreams"></ul>
+      </section>
+    </main>
+  </body>
+</html>
