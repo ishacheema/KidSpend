@@ -1,6 +1,6 @@
 # KidSpend
 #### Winner of Best Financial Hack (Captial One) at HackHERS 2021:)
-(file:///C:/Users/cheem/Downloads/kidspendlogo.webp)
+![hi](file:///C:/Users/cheem/Downloads/kidspendlogo.webp)
 ## Inspiration
 Currently, financial literacy is one of the most essential skills for future generations and needs to be taught young. Only about 60% of Canada has scored high on a survey about financial knowledge and literacy according to Statistics Canada.  Growing up, we were also not taught much about finances and would have appreciated more resources to prepare us for the future. With the lack of resources online for teaching young children financial literacy, we decided to make an app to help tackle this problem and create a generation of kids that have learned responsible money practices through an easy-to-use application. 
 
