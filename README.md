@@ -16,4 +16,4 @@ Meet **kidspend**, a financial literacy application that helps teach children ab
 ## How we built it
 We built it using HTML/CSS, Javascript and echoAR technology.
 
-**Devpost: ** [devpost.com/kidspend](https://devpost.com/software/kidspend)
+**Devpost:** [devpost.com/kidspend](https://devpost.com/software/kidspend)
